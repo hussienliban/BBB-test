@@ -64,7 +64,7 @@ var jam = {
 
 if (typeof require !== "undefined" && require.config) {
     require.config({packages: jam.packages, paths: jam.paths, shim: jam.shim});
-    console.log (jam.shim['libs/backbone-localstorage'])
+    console.log (jam.shim['libs/backbone-localstorage']);
 }
 else {
     var require = {packages: jam.packages, paths: jam.paths, shim: jam.shim};
